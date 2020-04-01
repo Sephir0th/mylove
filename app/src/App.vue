@@ -43,8 +43,8 @@ export default {
             enableHtml: false,
             fullStyle: [
                 `/*
-* Hi。宝贝！
-* 这么久了。还没给宝贝看过我写的代码！
+* Hi，宝贝！
+* 这么久了，还没给宝贝看过我写的代码！
 * 这就边写边看这些代码怎么实现。
 * 如这个页面。就是个什么也没有的网页。
 * 这些代码就是给这种空白的页面加点儿东西。
@@ -57,7 +57,7 @@ export default {
   -webkit-transition: all .3s;
   transition: all .3s;
 }
-/* 白色背景太单调了。来点背景 */
+/* 白色背景太单调了，来点背景 */
 html {
   color: rgb(222,222,222);
   background: rgb(0,43,54); 
@@ -72,7 +72,7 @@ html {
   font-size: 14px;
   line-height:1.5;
 }
-/* 这些代码颜色都一样。加点儿高亮区别来 */
+/* 这些代码颜色都一样，加点儿高亮来区别 */
 .token.selector{ color: rgb(133,153,0) }
 .token.property{ color: rgb(187,137,0) }
 .token.punctuation{ color: yellow }
@@ -161,8 +161,8 @@ html{
             fullMarkdown: `wangpeng × songrui
 ----
 
-2016年6月30日，初初见面。  
-2017年11月10日。即光棍前夕在一起。  
+2016年6月30日，初次见面。  
+2017年11月10日，即光棍前夕在一起。  
 已有 \`${getDateDiff((new Date()).getFullYear()+'-'+((new Date()).getMonth()+1)+'-'+(new Date()).getDate(),'2017-11-10') + 1}\` 天
 
 一起吃过的餐厅
